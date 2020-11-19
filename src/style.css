@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  #clock {
+    border: 5px solid rgb(255, 166, 0);
+    width: 400px;
+    height: 400px;
+    margin-top: 20px;
+    margin-left: 20px;
+    position: absolute;
+    border-radius: 50%;
+  }
+  #point {
+    width: 10px;
+    height: 10px;
+    position: relative;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    background: black;
+    border-radius: 50%;
+  }
+  #one {
+    display: inline-block;
+    width: 21px;
+    font-size: 20px;
+    color: rgb(255, 166, 0);
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  #two {
+    display: inline-block;
+    width: 10, 5px;
+    font-size: 20px;
+    color: rgb(255, 166, 0);
+    position: relative;
+    top: 45%;
+    left: 90.5%;
+    transform: translateY(35%);
+  }
+  #three {
+    display: inline-block;
+    width: 10.5px;
+    font-size: 20px;
+    color: rgb(255, 166, 0);
+    position: relative;
+    left: 38%;
+    top: 100%;
+    transform: translateY(-100%);
+  }
+  #four {
+    display: inline-block;
+    width: 10.5px;
+    font-size: 20px;
+    color: rgb(255, 166, 0);
+    position: relative;
+    left: -14.6%;
+    top: 49.5%;
+    transform: translateY(-35%);
+  }
+  #string1 {
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    top: 39.5%;
+    transform-origin: left;
+  }
+  #string2 {
+    display: inline-block;
+    position: relative;
+    left: 10%;
+    top: 39.4%;
+    transform-origin: left;
+  }
+  #string3 {
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    top: 34%;
+    transform-origin: left;
+  }
